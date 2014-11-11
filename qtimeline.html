@@ -1,0 +1,975 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> - jsFiddle demo by wschacker</title>
+  
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="qtimeline.css">
+ 
+
+</head>
+<body>
+<div style="width:800px;">
+   <div id="timeline">
+    <ul class="dates">
+        <li><a class="selected" href="#2013">2013</a></li>
+        <li><a href="#2012">2012</a></li>
+        <li><a href="#2011">2011</a></li>
+        <li><a href="#2010">2010</a></li>
+        <li><a href="#2009">2009</a></li>
+        <li><a href="#2008">2008</a></li>
+        <li><a href="#2007">2007</a></li>
+        <li><a href="#2006">2006</a></li>
+        <li><a href="#2005">2005</a></li>
+        <li><a href="#2004">2004</a></li>
+        <li><a href="#2003">2003</a></li>
+        <li><a href="#2002">2002</a></li>
+    </ul>
+
+    <ul class="events">
+        <li class="selected" id="2013">
+            <h1>2013年已发表论文</h1>
+            <div>
+                <ol class="report">
+                    <li>
+                        1.Wenxiang Wang, Junfei Zhao, Huali Yu, Nianchen Zhou, Zhengbiao Zhang*, Xiulin Zhu*. Simultaneously improving controls over molecular weight andstereoregularity of Poly(4-vinylpyridine) via a hydrogen bonding-facilitated controlled radical polymerization. Polymer 2013, 54, 3248-3253.
+                    </li>
+                    <li>
+                        2.Jiangyu Li, Nianchen Zhou*, Zhengbiao Zhang, Ying Xu, Xinrong Chen*, Yingfeng Tu, Zhijun Hu, and Xiulin Zhu*. A Smart Cyclic Azobenzene as Pendant Groups on Polymer Chains: Topological Effect of the Cyclization on Thermal and Photoresponsive Properties of the Azobenzene and the Polymer. Chem. Asian J. 2013, 8, 1095-1100.
+                    </li>
+                    <li>
+                        3.Guixian Huang, Jian Zhu*, Zhengbiao Zhang, Wei Zhang, Nianchen Zhou, Xiulin Zhu. Reversible Photo- and Thermo-Responsive Block Copolymer Micelles Functionalized by NIPAM and Azobenzene. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2013, 50,193-199.
+                    </li>
+                    <li>
+                        4.张双双，刘江飞，张键，王来兵，张伟*，朱秀林*. 溶剂手性转移法制备超支化共轭聚合物手性荧光纳米粒子.高分子学报, 2013, 4, 414-213.
+                    </li>
+                    <li>
+                        5.Michiya Fujiki*, Kana Yoshida, Nozomu Suzuki, Jian Zhang, Wei Zhang* and Xiulin Zhu*. Mirror symmetry breaking and restoration within mmsized polymer particles in optofluidic media by pumping circularly polarised light. RSC Adv. 2013, 3, 5213-5219.
+                    </li>
+                    <li>
+                        6.Xiaofei Zhang, Yang Wu, Jun Huang, Xuelang Miao, Zhengbiao Zhang*, Xiulin Zhu*. COPPER(0)-MEDIATED RADICAL POLYMERIZATION OF STYRENE AT ROOM TEMPERATURE. Chinese. J. Polym. Sci. 2013, 31, 702-712.
+                    </li>
+                    <li>
+                        7.Ting Guo, Lifen Zhang, Xiangqiang Pan, Xiaohong Li, Zhenping Cheng* and Xiulin Zhu*. A highly active homogeneous ICAR ATRP of methyl methacrylate using ppm levels of organocopper catalyst. Polym. Chem. 2013, 4, 3725-3734.
+                    </li>
+                    <li>
+                        8.Xiaoji Zhou, Wenxiang Wang, Huali Yu, Junfei Zhao, Zhengbiao Zhang* and Xiulin Zhu*. Hydrogen bonding assisted reversible-deactivation radical copolymerization of 4-vinylpyridine and styrene: a facile approach for adjusting polymerization behavior, polymer composition, etc. Polym. Chem. 2013, 4, 3575-3581.
+                    </li>
+                    <li>
+                        9.Jindong Zeng, Jian Zhu,* Xiangqiang Pan, Zhengbiao Zhang, Nianchen Zhou, Zhenping Cheng, Wei Zhang and Xiulin Zhu*. Organoselenium compounds: development of a universal “living” free radical polymerization mediator. Polym. Chem. 2013, 4, 3453-3457.
+                    </li>
+                    <li>
+                        10.Xiaofei Zhang, Wenxiang Wang, Kai Guo, Chrys Wesdemiotis, Zhengbiao Zhang*, Xiulin Zhu*. Zero-valent metal catalyzed radical-induced adjustable removal/modification of thiocarbonylthio end groups of RAFT polymer at ambient temperature. Polym. Chem. 2013, 4, 637-644.
+                    </li>
+                    <li>
+                        11.Jinlong Pan, Lifen Zhang, Liangjiu Bai, Zhengbiao Zhang, Hong Chen, Zhenping Cheng* and Xiulin Zhu*. Atom transfer radical polymerization of methyl methacrylate with a thermo-responsive ligand: construction of thermoregulated phase-transfer catalysis in an aqueous-organic biphasic system. Polym. Chem. 2013, 4, 2919-2938.
+                    </li>
+                    <li>
+                        12.Weiwei He, Hongjuan Jiang, Lifen Zhang, Zhenping Cheng* and Xiulin Zhu*. Atom transfer radical polymerization of hydrophilic monomers and its applications. Polym. Chem. 2013, 4, 2876-2883.
+                    </li>
+                    <li>
+                        13.Liangjiu Bai, Lifen Zhang, Yuan Liu, Xiangqiang Pan, Zhenping Cheng* and Xiulin Zhu*. Triphenylphosphine as phosphorus catalyst for reversible chain-transfer catalyzed polymerization (RTCP). Polym. Chem. 2013, 4, 3069-3076.
+                    </li>
+                    <li>
+                        14.Wenxiang Wang, Junfei Zhao, Wei Zhang, Jian Zhu, Zhengbiao Zhang*, Xiulin Zhu*. Ligand-Free SET-DTLRP of MMA at Room Temperature. J. Polym. Sci., Part A: Polym. Chem. 2013, 51, 1872-1879.
+                    </li>
+                    <li>
+                        15.Heqin Dou, Xiaomin Zhang, Wei Shen, Jian Zhu*, Zhengbiao Zhang, Xiulin Zhu. Synthesis of Comb-like Block Copolymer with Poly(N-isopropylacrylamide) Backbone and Poly(vinyl acetate) or Poly(N-vinyl-2-pyrrolidone) Side Chains by Reversible Addition-Fragmentation Chain Transfer Polymerization. J. Polym. Sci., Part A: Polym. Chem. 2013, 51, 2125-2130.
+                    </li>
+                    <li>
+                        16.Jindong Zeng, Zhengbiao Zhang, Jian Zhu*, Nianchen Zhou, Zhenping Cheng, Xiulin Zhu*. Selenium-Substituted Carbonates as Mediators for Controlled Radical Polymerization. J. Polym. Sci., Part A: Polym. Chem. 2013, 51, 2606-2613.
+                    </li>
+                    <li>
+                        17.Fei Ma, Jian Zhu*, Zhengbiao Zhang, Xiangqiang Pan, Nianchen Zhou, Xiulin Zhu*. Seleno-Containing Poly(vinyl acetate) Prepared by Diselenocarbonates-Mediated Controlled Free Radical Polymerizations. J. Polym. Sci., Part A: Polym. Chem. 2013, 51, 3159-3165.
+                    </li>
+                    <li>
+                        18.Xiaomin Zhang, Heqin Dou, Zhengbiao Zhang, Wei Zhang, Xiulin Zhu*, Jian Zhu*. Fast and Effective Copper(0)-Mediated Simultaneous Chain- and Step-Growth Radical Polymerization at Ambient Temperature. J. Polym. Sci., Part A: Polym. Chem. 2013, 51, 3907-3916.
+                    </li>
+                    <li>
+                        19.Zeyong Xing, Jian Zhang, Xiaohong Li, Wei Zhang*, Laibing Wang, Nianchen Zhou, Xiulin Zhu*. Design and Property of Thermoresponsive Core-Shell Fluorescent Nanoparticles via RAFT Polymerization and Suzuki Coupling Reaction. J. Polym. Sci., Part A: Polym. Chem. 2013, 51, 4021-4030.
+                    </li>
+                    <li>
+                        20.Liangjiu Bai, Lifen Zhang, Jinlong Pan, Jian Zhu, Zhenping Cheng,* and Xiulin Zhu*.Developing a Synthetic Approach with Thermoregulated Phase-Transfer Catalysis: Facile Access to Metal-Mediated Living Radical Polymerization of Methyl Methacrylate in Aqueous/Organic Biphasic System.Macromolecules 2013, 46, 2060-2066.
+                    </li>
+                    <li>
+                        21.Xing Zhu, Nianchen Zhou*, Jian Zhu, Zhengbiao Zhang*, Wei Zhang, Zhenping Cheng, Yingfeng Tu, Xiulin Zhu*. High-Effi ciency Preparation of Macrocyclic Polymers via a Circulatory Extraction-Cyclization Strategy. Macromol. Chem. Phys. 2013, 214, 1107-1113.
+                    </li>
+                    <li>
+                        22.Xing Zhu, Nianchen Zhou*, Jian Zhu, Zhengbiao Zhang*, Wei Zhang, Zhenping Cheng, Yingfeng Tu, Xiulin Zhu*.A High-Effi ciency Strategy for Synthesizing Cyclic Polymers of Methacryates in One Pot. Macromol. Rapid Commun. 2013, 34, 1014-1019.
+                    </li>
+                    <li>
+                        23.Yiyu Zhan, Zhengbiao Zhang*, Xiangqiang Pan, Jian Zhu, Nianchen Zhou, Xiulin Zhu*. A Cyclic Selenium-Based Reversible Addition-Fragmentation Chain Transfer Agent Mediated Polymerization of Vinyl Acetate. J. Polym. Sci., Part A: Polym. Chem. 2013, 51, 1656-1663.
+                    </li>
+                    <li>
+                        24.Shaogan Niu, Lifen Zhang*, Jian Zhu, Wei Zhang, Zhenping Cheng*, Xiulin Zhu*. Synthesis of High Molecular Weight and Narrow Molecular Weight Distribution Poly(acrylonitrile) via RAFT Polymerization. J. Polym. Sci., Part A: Polym. Chem. 2013, 51, 1197-1204.
+                    </li>
+                    <li>
+                        25.Shengtong Sun, Peiyi Wu*, Weidong Zhang*, Wei Zhang*, Xiulin Zhu. Effect of structural constraint on dynamic self-assembly behavior of PNIPAM-based nonlinear multihydrophilicblock copolymers. Soft Matter2013, 9, 1807-1816.
+                    </li>
+                </ol>
+            </div>
+        </li>
+        <li id="2012">
+            <h1>2012年已发表论文</h1>
+            <div>
+                <ol class="report">
+
+                    <li>
+                        26.Xiangqiang Pan, Jian Zhu, Jianping Zou, Zhengbiao Zhang, Zhenping Cheng, Nianchen Zhou, Wei Zhang, Jian Zhu, Zhijun Hu, Xiulin Zhu*. Straightforward and Highly Efficient Synthesis of Diselenocarbamates. Org. Lett. 2012, 14, 6170-6173.
+                    </li>
+                    <li>
+                        27.Hao Zhang, Nianchen Zhou*, Xing Zhu, Xinrong Chen, Zhengbiao Zhang, Wei Zhang, Jian Zhu, Zhijun Hu, Xiulin Zhu*. Macromol. Rapid Commun. 2012, 33, 1845-1851.
+                    </li>
+                    <li>
+                        28.Yanna Zhang, Xing Zhu, Nianchen Zhou*, Xinrong Chen, Wei Zhang, Yonggang Yang, Xiulin Zhu*. Cyclic Main-Chain Phenylazo Naphthalene Polymers: Topological Effect on Fluorescence Emission and Photoinduced Surface Relief Grating Formation. Chem. Asian J. 2012, 7, 2217-2221.
+                    </li>
+                    <li>
+                        29.Gaohua Zhu, Lifen Zhang*, Xiangqiang Pan, Wei Zhang, Zhenping Cheng*, Xiulin Zhu*. Facile Soap-Free Miniemulsion Polymerization of Methyl Methacrylate via Reverse Atom Transfer Radical Polymerization. Macromol. Rapid Commun. 2012, 33, 2121-2126.
+                    </li>
+                    <li>
+                        30.Cao Jun(曹俊), Zhang Lifen(张丽芬), Pan Xiangqiang(潘向强), Cheng Zhenping*(程振平), Zhu Xiulin*(朱秀林). RAFT Copolymerization of Glycidyl Methacrylate and N,N-Dimethylaminoethyl Methacrylate. Chin. J. Chem. 2012, 30, 2138-2144.
+                    </li>
+                    <li>
+                        31.Jie Miao, Hongjuan Jiang, Lifen Zhang, Zhaoqiang Wu, Zhenping Cheng*, Xiulin Zhu*. AGET ATRP of methyl methacrylate via a bimetallic catalyst. RSC Adv. 2012, 2, 840-847.
+                    </li>
+                    <li>
+                        32.Weiwei He, Lifen Zhang, Jie Miao, Zhenping Cheng*, Xiulin Zhu*. Facile Iron-Mediated AGET ATRP for Water-Soluble Poly(ethylene glycol) Monomethyl Ether Methacrylate in Water. Macromol. Rapid Commun. 2012, 33, 1067-1073.
+                    </li>
+                    <li>
+                        33.Liangjiu Bai, Lifen Zhang, Zhenping Cheng*, Xiulin Zhu*. Activators generated by electron transfer for atom transfer radical polymerization: recent advances in catalyst and polymer chemistry. Polym. Chem. 2012, 3, 2685-2697.
+                    </li>
+                    <li>
+                        34.Wenxiang Wang, Zhengbiao Zhang*, Zhenping Cheng, Jian Zhu, Nianchen Zhou, Xiulin Zhu*. Favorable hydrogen bonding in room-temperature Cu(0)-mediated controlled radical polymerization of 4-vinylpyridine. Polym. Chem. 2012, 3, 2731-2734.
+                    </li>
+                    <li>
+                        35.Junfei Zhao, Wenxiang Wang, Liangjiu Bai, Lili Zhou, Zhenping Cheng, Zhengbiao Zhang*, Xiulin Zhu*. Reversible-deactivation radical polymerizationmediated by CuSO4∙5H2O: an alternative and promising copper(II)-based catalyst. Polym. Chem. 2012, 3, 3220-3223.
+                    </li>
+                    <li>
+                        36.Yan Sun, Nianchen Zhou*, Wei Zhang, Yaowen Li, Zhenping Cheng, Jian Zhu, Zhengbiao Zhang, Xiulin Zhu*. Synthesis of Novel Side-Chain Triphenylamine Polymers with Azobenzene Moieties via RAFT Polymerization and Investigation on Their Photoelectric Properties. J. Polym. Sci., Part A: Polym. Chem. 2012, 50, 3788-3796.
+                    </li>
+                    <li>
+                        37.Hongjuan Jiang, Lifen Zhang, Jian Qin, Wei Zhang, Zhenping Cheng*, Xiulin Zhu*. Producing Bimodal Molecular Weight Distribution Polymers ThroughFacile One-Pot/One-Step RAFT Polymerization. J. Polym. Sci., Part A: Polym. Chem. 2012, 50, 4103-4109.
+                    </li>
+                    <li>
+                        38.Hongjuan Jiang, Lifen Zhang, Jinlong Pan, Xiaowu Jiang, Zhenping Cheng*, Xiulin Zhu*. Iron-Mediated AGET ATRP of Methyl Methacrylate Using Metal Wire as Reducing Agent. J. Polym. Sci., Part A: Polym. Chem. 2012, 50, 2244-2253.
+                    </li>
+                    <li>
+                        39.Jindong Zeng, Jian Zhu*, Zhengbiao Zhang, Xiangqiang Pan, Wei Zhang, Zhenping Cheng, Xiulin Zhu*. New Selenium-Based Iniferter Agent for Living Free Radical Polymerization of Styrene under UV Irradiation. J. Polym. Sci., Part A: Polym. Chem. 2012, 50, 2211-2218.
+                    </li>
+                    <li>
+                        40.Jie Miao, Weiwei He, Lifen Zhang, Yi Wang, Zhenping Cheng*, Xiulin Zhu*. AGET ATRP of Water-Soluble PEGMA: Fast Living Radical Polymerization Mediated by Iron Catalyst.J. Polym. Sci., Part A: Polym. Chem. 2012, 50, 2194-2200.
+                    </li>
+                    <li>
+                        41.Huali Yu, Zhengbiao Zhang*, Zhenping Cheng, Jian Zhu, Nianchen Zhou, Wei Zhang, Xiulin Zhu*. ATRP of Styrene Catalyzed by Elemental Fe(0) and Br2: An Easy and Economical ATRP Process. J. Polym. Sci., Part A: Polym. Chem. 2012, 50, 2182-2187.
+                    </li>
+                    <li>
+                        42.Huali Yu, Yang Wu, Jinlong Gao, Wenxiang Wang, Zhengbiao Zhang,* , Xiulin Zhu*. Copper(0)-Mediated Radical Copolymerization of Vinyl Acetate and Acrylonitrile in DMSO at Ambient Temperature. J. Polym. Sci., Part A: Polym. Chem. 2012, 50, 4983-4989.
+                    </li>
+                    <li>
+                        43.Huali Yu, Qifeng Chen, Zhengbiao Zhang,* Jian Zhu, Zhenping Cheng, Nianchen Zhou, Wei Zhang, Xiulin Zhu*. 60Co γ-irradiation-initiated RAFT polymerization of VAc at room temperature. React. Funct. Polym. 2012, 72, 153-159.
+                    </li>
+                    <li>
+                        44.Kang Zhao, Zhenping Cheng, Zhengbiao Zhang, Nianchen Zhou, Xiulin Zhu*. Synthesis and fluorescence properties of polystyrene via atom transfer radical polymerization using a coumarin derivate as initiator.Polym. Bull. 2012, 68, 921-929.
+                    </li>
+                    <li>
+                        45.Lili Zhou, Zhengbiao Zhang*, Zhenping Cheng, Nianchen Zhou, Jian Zhu, Wei Zhang, Xiulin Zhu*. Fe(0) Powder/CuBr2-Mediated “Living”/Controlled Radical Polymerization of Methyl Methacrylate and Styrene at Ambient Temperature. Macromol. Chem. Phys. 2012, 213, 439-446.
+                    </li>
+                    <li>
+                        46.Yahan Liu, Xuelang Miao, Jian Zhu*, Zhengbiao Zhang, Zhenping Cheng, Xiulin Zhu*. Polymer-Grafted Modifi cation of Activated Carbon by Surface-Initiated AGET ATRP. Macromol. Chem. Phys. 2012, 213, 868-877.
+                    </li>
+                    <li>
+                        47.Qin Zhang, Zhengbiao Zhang,* Wenxiang Wang, Jian Zhu, Zhenping Cheng, Nianchen Zhou, Wei Zhang, Xiulin Zhu*. SET-RAFT of MMA Mediated by Ascorbic Acid-Activated Copper Oxide. J. Polym. Sci., Part A: Polym. Chem. 2012, 50, 1424-1433.
+                    </li>
+                    <li>
+                        48.Qiong Shen, Jian Zhang, Shuangshuang Zhang, Yigang Hao, Wei Zhang,* Weidong Zhang, Gaojian Chen, Zhengbiao Zhang, Xiulin Zhu*. Facile One-Pot/One-Step Technique for Preparation of Side-Chain Functionalized Polymers: Combination of SET-RAFT Polymerization of Azide Vinyl Monomer and Click Chemistry.J. Polym. Sci., Part A: Polym. Chem. 2012, 50, 1120-1126.
+                    </li>
+                    <li>
+                        49.Lili Zhou, Zhengbiao Zhang,* Wenxiang Wang, Zhenping Cheng, Nianchen Zhou, Jian Zhu, Wei Zhang, Xiulin Zhu*. Zero-Valent Bimetallic Iron/Copper Catalyzed SET-LRP: A Dual Activation by Zero-Valent Iron. J. Polym. Sci., Part A: Polym. Chem. 2012, 50, 936-943.
+                    </li>
+                    <li>
+                        50.Wenxiang Wang, Zhengbiao Zhang,* Yang Wu, Jian Zhu, Zhenping Cheng, Nianchen Zhou, Wei Zhang, Xiulin Zhu*. Ligand-Free Cu(0)-Mediated Controlled Radical Polymerization of Methyl Methacrylate at Ambient Temperature. J. Polym. Sci., Part A: Polym. Chem. 2012, 50, 711-719.
+                    </li>
+                    <li>
+                        51.Jian Qin, Lifen Zhang,* Hongjuan Jiang, Jian Zhu, Zhengbiao Zhang, Wei Zhang, Nianchen Zhou, Zhenping Cheng*, and Xiulin Zhu*. Controlled Bimodal Molecular-Weight-Distribution Polymers: Facile Synthesis by RAFT Polymerization. Chem. Eur. J. 2012, 18, 6015-6021.
+
+                    </li>
+                    <li>
+                        52.Tao Cai, Wenjing Yang, Zhengbiao Zhang, Xiulin Zhu*, Koon-Gee Neoh, En-Tang Kang*. Soft Matter 2012, 8, 5612-5620.
+
+                    </li>
+                    <li>
+                        53.Wei Shen, Minying Xing, Zhengbiao Zhang, Zhenping Cheng, Jian Zhu*. Synthesis of Amphiphilic Azobenzene Functionalized Branched-Type Copolymer Based on Branched Poly(2-(Dimethylamino) ethyl methacrylate) and Investigation of Its Drug Release Properties. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2012, 49,834-844.
+                    </li>
+                </ol>
+            </div>
+        </li>
+        <li id="2011">
+            <h1>
+                2011年已发表论文
+            </h1>
+            <div>
+                <ol class="report">
+                    <li>
+                        54.     Ting Guo, Lifen Zhang, Hongjuan Jiang, Zhengbiao Zhang, Jian Zhu, Zhenping Cheng*, Xiulin Zhu*. Catalytic amounts of sodium hydroxide as additives for iron-mediated AGET ATRP of MMA. Polym. Chem. 2011, 2, 2385-2390.
+                    </li>
+                    <li>
+                        55.     Jiliang Liu, Weiwei He, Lifen Zhang, Zhengbiao Zhang, Jian Zhu, Lin Yuan, Hong Chen, Zhenping Cheng*, Xiulin Zhu*. Bifunctional Nanoparticles with Fluorescence and Magnetism via Surface-Initiated AGET ATRP Mediated by an Iron Catalyst. Langmuir 2011, 27, 12684-12692.
+                    </li>
+                    <li>
+                        56.     Xiaobo Zhou, Jian Zhu*, Minying Xing, Zhengbiao Zhang, Zhenping Cheng, Nianchen Zhou, Xiulin Zhu*. Synthesis and characters of hyperbranched poly(vinyl acetate) by RAFT polymeraztion. Eur. Polym. J. 2011, 47, 1912-1922.
+                    </li>
+                    <li>
+                        57.     Ying Li, Nianchen Zhou*, Wei Zhang, Feng Zhang, Jian Zhu, Zhengbiao Zhang, Zhenping Cheng, Yingfeng Tu, Xiulin Zhu*. Light-Driven and Aggregation-Induced Emission from Side-Chain Azoindazole Polymers. J. Polym. Sci., Part A: Polym. Chem. 2011, 49, 4911-4920.
+                    </li>
+                    <li>
+                        58.     Xing Zhu, Nianchen Zhou, Zhengbiao Zhang, Baoquan Sun, Yonggang Yang, Jian Zhu, Xiulin Zhu*. Cyclic Polymers with Pendent Carbazole Units: Enhanced Fluorescence and Redox Behavior. Angew. Chem. 2011, 50, 6615-6618.
+                    </li>
+                    <li>
+                        59.     Qiang Li, Lifen Zhang, Liangjiu Bai, Zhengbiao Zhang, Jian Zhu, Nianchen Zhou, Zhenping Cheng* and Xiulin Zhu*. Multistimuli-responsive hybrid nanoparticles with magnetic core and thermoresponsive fluorescence-labeled shell via surface-initiated RAFT polymerization. Soft Matter 2011, 7, 6958-6966.
+                    </li>
+                    <li>
+                        60.     Wei Zhang*, Kana Yoshida, Michiya Fujiki*, Xiulin Zhu. Unpolarized-Light-Driven Amplified Chiroptical Modulation Between Chiral Aggregation and Achiral Disaggregation of an Azobenzene-alt-Fluorene Copolymer in Limonene. Macromolecules 2011, 44, 5105-5111.
+                    </li>
+                    <li>
+                        61.     Wei Zhang*, Michiya Fujiki*, Xiulin Zhu. Chiroptical Nanofibers Generated From Achiral Metallophthalocyanines Induced by Diamine Homochirality. Chem. Eur. J. 2011, 17, 10628-10635.
+                    </li>
+                    <li>
+                        62.     Wenjing He, Lifen Zhang, Liangjiu Bai, Zhengbiao Zhang, Jian Zhu,Zhenping Cheng*, Xiulin Zhu*. Iron-mediated AGET ATRP of MethylMethacrylate in the Presence of Catalytic Amounts of Base. Macromol. Chem. Phys. 2011, 212,1474-1480.
+                    </li>
+                    <li>
+                        63.     Jinlong Gao, Zhengbiao Zhang, Nianchen Zhou, Zhenping Cheng, Jian Zhu, and Xiulin Zhu*. Copper(0)-Mediated Living Radical Copolymerization of Styrene and Methyl Methacrylate at Ambient Temperature. Macromolecules 2011, 44, 3227-3232.
+                    </li>
+                    <li>
+                        64.     Weidong Zhang, Wei Zhang, Zhenping Cheng, Nianchen Zhou, Jian Zhu, Zhengbiao Zhang, Gaojian Chen, and Xiulin Zhu*. Synthesis and Aggregation Behaviors of Nonlinear Multiresponsive, Multihydrophilic Block Copolymers. Macromolecules 2011, 44, 3366-3373.
+                    </li>
+                    <li>
+                        65.     Gaohua Zhu, Lifen Zhang, Zhengbiao Zhang, Jian Zhu, Yingfeng Tu, Zhenping Cheng*, and Xiulin Zhu*. Iron-Mediated ICAR ATRP of Methyl Methacrylate. Macromolecules 2011, 44, 3233-3239.
+                    </li>
+                    <li>
+                        66.     Jian Qin, Zhenping Cheng, Lifen Zhang*, Zhengbiao Zhang, Jian Zhu, Xiulin Zhu*. A Highly Efficient Iron-Mediated AGET ATRP of Methyl Methacrylate Using Fe(0) Powder as the Reducing Agent. Macromol. Chem. Phys. 2011, 212, 999–1006.
+                    </li>
+                    <li>
+                        67.     Tao Zhao, Lifen Zhang, Zhengbiao Zhang, Nianchen Zhou, Zhenping Cheng*, Xiulin Zhu*. A novel approach to modify poly(vinylidene fluoride) via iron-mediated atom transfer radical polymerization using activators generated by electron transfer. J. Polym. Sci., Part A: Polym. Chem. 2011, 49, 2315-2324.
+                    </li>
+                    <li>
+                        68.     Weihua Guo, Jian Zhu, Zhenping Cheng, Zhengbiao Zhang, and Xiulin Zhu*. Anticoagulant Surface of 316 L Stainless Steel Modified by Surface-Initiated Atom Transfer Radical Polymerization. ACS Appl. Mater. Interfaces 2011, 3, 1675–1680.
+                    </li>
+                    <li>
+                        69.     Qifeng Chen, Zhengbiao Zhang, Nianchen Zhou, Zhenping Cheng, Yingfeng Tu, Xiulin Zhu*. Copper(0)-Mediated Living Radical Polymerization of Acrylonitrile at Room Temperature. J. Polym. Sci., Part A: Polym. Chem. 2011, 49, 1183-1189.
+                    </li>
+                    <li>
+                        70.     Wei Xu, Zhenping Cheng, Zhengbiao Zhang, Lifen Zhang*, Xiulin Zhu*. Modification of SEBS rubber via iron-mediated AGET ATRP in the presence oflimited amounts of air. React. FunctPolym.2011, 71, 634-640.
+                    </li>
+                    <li>
+                        71.     Qin Zhang, Zhengbiao Zhang*, Wenxiang Wang, Zhenping Cheng, Jian Zhu, Nianchen Zhou,Wei Zhang, Zhaoqiang Wu, Xiulin Zhu*. In Situ Cu(0) Catalyzed SET-LRP: the First Attempt. J. Polym. Sci., Part A: Polym. Chem. 2011, 49, 4694-4700.
+                    </li>
+                    <li>
+                        72.     Qifeng Chen, Zhengbiao Zhang, Nianchen Zhou, Zhenping Cheng, Jian Zhu, Wei Zhang, Xiulin Zhu. ATRP of MMA under 60Co γ-Irradiation at Room Temperature. J. Polym. Sci., Part A: Polym. Chem. 2011, 49, 3588-3594.
+                    </li>
+                    <li>
+                        73.     Liangjiu Bai, Lifen Zhang, Zhengbiao Zhang, Jian Zhu, Nianchen Zhou,Zhenping Cheng*, Xiulin Zhu*. Alumina Additives for Fast Iron-Mediated AGET ATRP of MMA Using Onium Salt as Ligand. J. Polym. Sci., Part A: Polym. Chem. 2011, 49, 3970-3979.
+                    </li>
+                    <li>
+                        74.     Liangjiu Bai, Lifen Zhang, Zhengbiao Zhang, Jian Zhu, Nianchen Zhou, Zhenping Cheng*, Xiulin Zhu*. Rate-Enhanced ATRP in the Presence of Catalytic Amounts of Base: An Example of Iron-Mediated AGET ATRP of MMA. J. Polym. Sci., Part A: Polym. Chem. 2011, 49, 3980-3987.
+                    </li>
+                    <li>
+                        75.     Meixia Tao, Lifen Zhang, Hongjuan Jiang, Zhengbiao Zhang, Jian Zhu, Zhenping Cheng,* Xiulin Zhu*. Iron(III)-Mediated AGET ATRP of Methyl Methacrylate Using Vitamin C Sodium Salt as a Reducing Agent. Macromol. Chem. Phys. 2011, 212, 1481–1488.
+                    </li>
+                </ol>
+            </div>
+        </li>
+        <li id="2010">
+            <h1>
+                2010年已发表论文
+            </h1>
+            <div>
+                <ol class="report">
+
+                    <li>
+                        76.     Haizhong Cao, Jian Zhu, Wei Zhang, Xinrong Chen, Zhenping Cheng, Jianhong Wu, Xiulin Zhu. Methacrylate copolymers with substituted azobenzene side groups: synthesis, characterization and photo-induced birefringence properties. e-Polymers, 2010, no. 049.
+                    </li>
+                    <li>
+                        77.     Xu Xu, Nianchen Zhou, Jian Zhu, Yingfeng Tu, Zhengbiao Zhang, Zhenping Cheng, Xiulin Zhu*. The First Example of Main-Chain Cyclic Azobenzene Polymers. Macromol. Rapid Commun. 2010, 31, 1791–1797.
+                    </li>
+                    <li>
+                        78.     Zhengbiao Zhang, Wenxiang Wang, Zhenping Cheng, Jian Zhu, Nianchen Zhou, Yonggang Yang, Yingfeng Tu, and Xiulin Zhu*. Zero-valent Iron/RAFT Agent-Mediated Polymerization of Methyl Methacrylate at Ambient Temperature, Macromolecules 2010, 43, 7979–7984.
+                    </li>
+                    <li>
+                        79.     Chengchao Wang, Wei Zhang, Nianchen Zhou, Yansheng Qiu, Zhengping Cheng, and Xiulin Zhu. Synthesis and Characterization of Well-Defined Soluble Alq3- and Znq2-Functionalized Polymers via RAFT Copolymerization. International Journal of Polymer Science Volume., 2010, Article ID 340926, 7 pages.
+                    </li>
+                    <li>
+                        80.     Weidong Zhang, Wei Zhang, Zhengbiao Zhang, Zhenping Cheng, Yingfeng Tu, YanSheng Qiu, Xiulin Zhu. Thermo-Responsive Fluorescent Micelles from Amphiphilic A3B Miktoarm Star Copolymers Prepared via a Combination of SET-LRP and RAFT Polymerization. J. Polym. Sci., Part A: Polym. Chem. 2010, 48, 4268–4278.
+                    </li>
+                    <li>
+                        81.     Yansheng Qiu, Wei Zhang, Yuefang Yan, Jian Zhu, Zhengbiao Zhang, Xiulin Zhu. Preparation of Miktoarm Star-Block Copolymers PSn-b-PVAc4-n via Combination of ATRP and RAFT Polymerization. J. Polym. Sci., Part A: Polym. Chem. 2010, 48, 5180–5188.
+                    </li>
+                    <li>
+                        82.     Yuefang Yan, Wei Zhang, Yansheng Qiu, Zhengbiao Zhang, Jian Zhu, Zhenping Cheng, Weidong Zhang, Xiulin Zhu. Universal Xanthate-Mediated Controlled Free Radical Polymerizations of the ‘‘Less Activated’’ Vinyl Monomers. J. Polym. Sci., Part A: Polym. Chem. 2010, 48, 5206–5214.
+                    </li>
+                    <li>
+                        83.     Jiliang Liu, Lifen Zhang, Suping Shi, Shuai Chen, Nianchen Zhou, Zhengbiao Zhang, Zhenping Cheng,* and Xiulin Zhu*. A Novel and Universal Route to SiO2-Supported Organic/Inorganic Hybrid Noble Metal Nanomaterials via Surface RAFT Polymerization. Langmuir 2010, 26(18), 14806–14813.
+                    </li>
+                    <li>
+                        84.     Xiaoqiang Xue, Jian Zhu, Zhengbiao Zhang, Nianchen Zhou, Yingfeng Tu, and Xiulin Zhu*, Soluble Main-Chain Azobenzene Polymers via Thermal 1,3-Dipolar Cycloaddition: Preparation and Photoresponsive Behavior. Macromolecules 2010, 43,2704–2712.
+                    </li>
+                    <li>
+                        85.     Weidong Zhang, Wei Zhang, Zhengbiao Zhang, Jian Zhu, Xiulin Zhu*. SET-RAFT Polymerization of Progargyl Methacrylate and a One-Pot/One-Step Preparation of Side-chain Functionalized Polymers via Combination of SET-RAFT and Click Chemistry. Macromol. Rapid Commun. 2010, 31, 1354–1358.
+                    </li>
+                    <li>
+                        86.     Liangjiu Bai, Lifen Zhang, Zhengbiao Zhang, Yingfeng Tu, Nianchen Zhou, Zhenping Cheng,* and Xiulin Zhu*. Iron-Mediated AGET ATRP of Styrene in the Presence of Catalytic Amounts of Base. Macromolecules 2010, 43, 9283-9290.
+                    </li>
+                    <li>
+                        87.     Lifen Zhang, Jie Miao, Zhenping Cheng, Xiulin Zhu*. Iron-Mediated ICAR ATRP of Styrene and Methyl Methacrylate in the Absence of Thermal Radical Initiator. Macromol. Rapid Commun. 2010, 31, 275–280.
+                    </li>
+                    <li>
+                        88.     Cheng Chang, Jian Zhu, Zhengbiao Zhang, Nianchen Zhou, Zhenping Cheng, Xiulin Zhu*. Synthesizing and characterization of comb-shaped carbazole containing copolymer via combination of ring opening polymerization and nitroxide-mediated polymerization. Polymer 2010, 51, 1947-1953.
+                    </li>
+                    <li>
+                        89.     Xiaoqiang Xue, Jian Zhu, Zhengbiao Zhang, Zhenping Cheng, Yingfeng Tu, Xiulin Zhu*. Synthesis and characterization of azobenzene-functionalized poly (styrene)-b-poly(vinyl acetate) via the combination of RAFT and “click” chemistry. Polymer 2010,51,3083-3090.
+                    </li>
+                    <li>
+                        90.     Xiaoqiang Xue, Jian Zhu, Zhengbiao Zhang, Nianchen Zhou, Xiulin Zhu*. Synthesis and photoresponsive behavior of the high-Tg azobenzene polymers via RAFT polymerization. React. Funct. Polym. 2010, 70, 456–462.
+                    </li>
+                    <li>
+                        91.     Jieai Li, Zhengbiao Zhang, Xiulin Zhu*, Jian Zhu, Zhenping Cheng, Wenjian Xu. Stable free radical polymerization of styrene with 4-sulphonate-2,2,6,6-tetramethylpiperidine-N-oxyl as mediators. Polym. Bull. 2010, 64, 1–13.
+                    </li>
+                    <li>
+                        92.     Lifen Zhang, Zhenping Cheng, Zhengbiao Zhang, Deyin Xu, Xiulin Zhu*. Fe(III)-catalyzed AGET ATRP of styrene using triphenyl phosphine as ligand. Polym. Bull. 2010, 64, 233–244.
+                    </li>
+                    <li>
+                        93.     Wenliang Xu, Zhenping Cheng, Lifen Zhang, Zhangbiao Zhang, Jian Zhu, Nianchen Zhou, Xiulin Zhu*. Synthesis and Properties of Crosslinked Chiral Nanoparticles via RAFT Miniemulsion Polymerization. J. Polym. Sci., Part A: Polym. Chem. 2010, 48, 1324–1331.
+                    </li>
+                    <li>
+                        94.     Qiang Li, Lifen Zhang, Zhengbiao Zhang, Nianchen Zhou, Zhenping Cheng, Xiulin Zhu*. Air-Tolerantly Surface-Initiated AGET ATRP Mediated by Iron Catalyst from Silica Nanoparticles. J. Polym. Sci., Part A: Polym. Chem. 2010, 48, 2006–2015.
+                    </li>
+                    <li>
+                        95.     Yi Xiang, Xiaoqiang Xue, Jian Zhu*, Zhengbiao Zhang, Wei Zhang, Nianchen Zhou and Xiulin Zhu*. Fluorescence behavior of an azobenzene-containing amphiphilic diblock copolymer. Polym. Chem. 2010, 1, 1453-1458.
+                    </li>
+                    <li>
+                        96.     Wei Zhang*, Kenji Ochi, Michiya Fujiki*, Masanobu Naito, Masaaki Ishikawa, Kei-ichi, Kaneto*, Wataru Takashima, Akinori Saeki and Shu Seki*. Programmed High-Hole-Mobility Supramolecular Polymers from Disk-Shaped Molecules, Adv. Funct. Mater. 2010, 20, 3941–3947.
+                    </li>
+                    <li>
+                        97.     Wei Zhang, Yuefang Yan, Xiulin Zhu*, Yansheng Qiu, Zhenping Cheng, Jian Zhu, Zhengbiao Zhang. Chlorodithiocarbamate-Mediated RAFT Polymerization: A Novel Synthetic Method for ATRP Macroinitiators. Macromol. React. Eng. 2010, 4, 264–271.
+                    </li>
+                    <li>
+                        98.     Wei Zhang*, Akira Ishimaru , Hisanari Onouchi, Roopali Rai, Anubhav Saxena, Akihiro Ohira, Masaaki Ishikawa, Masanobu Naito and Michiya Fujiki*.Ambidextrous optically active copper(II) phthalocyanine supramolecules induced by peripheral group homochirality. New J. Chem. 2010, 34, 2310–2318.
+                    </li>
+                    <li>
+                        99.     Jieai Li, Zhengbiao Zhang, Xiulin Zhu, Jian Zhu, Zhenping Cheng, Wenjian Xu, Stable free radical polymerization of styrene with 4-sulphonate-2,2,6,6-tetramethylpiperidine-N-oxyl as mediators. Polym. Bull, 2010, 64, 1–13.
+                    </li>
+                </ol>
+            </div>
+        </li>
+        <li id="2009">
+            <h1>
+                2009年已发表论文
+            </h1>
+            <div>
+                <ol class="report">
+
+                    <li>
+                        100. Zhengbiao Zhang, Wenxiang Wang, Hongda Xia, Jian Zhu, Wei Zhang and Xiulin Zhu*. Single-Electron Transfer Living Radical Polymerization (SET-LRP) of Methyl Methacrylate (MMA) with a Typical RAFT Agent as an Initiator. Macromolecules 2009, 42, 7360-7366.
+                    </li>
+                    <li>
+                        101. Nianchen Zhou, Zhengbiao Zhang, Jian Zhu, Zhenping Cheng, and Xiulin Zhu*. RAFT Polymerization of Styrene Mediated by Ferrocenyl-Containing RAFT Agent and Properties of the Polymer Derived from Ferrocene. Macromolecules 2009, 42, 3898–3905.
+                    </li>
+                    <li>
+                        102. Xiaoqiang Xue, Jian Zhu, Wei Zhang, Zhengbiao Zhang, Xiulin Zhu*. Preparation and characterization of novel main-chain azobenzene polymers via step-growth polymerization based on click chemistry. Polymer 2009, 50, 4512–4519.
+                    </li>
+                    <li>
+                        103. Liangjiu Bai, Lifen Zhang, Jian Zhu, Zhenping Cheng, Xiulin Zhu*. Iron (III)-Mediated AGET ATRP of Styrene Using Tris(3,6-Dioxaheptyl)amine as a Ligand. J. Polym. Sci., Part A: Polym. Chem. 2009, 47, 2002-2008.
+                    </li>
+                    <li>
+                        104. Di Zhou, Xiulin Zhu*, Jian Zhu, Zhenping Cheng. Preparation and characterization of poly(styrene)/metal composites via reversible addition-fragmentation chain transfer (RAFT) polymerization. React. Funct. Polym. 2009, 69, 55-61.
+                    </li>
+                    <li>
+                        105. Daoguang Li, Jian Zhu, Zhenping Cheng, Wei Zhang, Xiulin Zhu*. A combination of RAFT and “Click” chemistry techniques to synthesize polymeric europium complexes with selective fluorescence emission. React. Funct. Polym. 2009, 69,240-245.
+                    </li>
+                    <li>
+                        106. Lifen Zhang, Zhenping Cheng, Nianchen Zhou, Suping Shi, Xiaorong Su, Xiulin Zhu*. Synthesis of Miktoarm Dumbbell-Like Amphiphilic Triblock Copolymer by Combination of Consecutive RAFT Polymerizations and ATRP. Polym. Bull. 2009, 62, 11-22.
+                    </li>
+                    <li>
+                        107. Lifen Zhang, Zhenping Cheng, Yueting Lu, Xiulin Zhu*. A Highly Active Iron-Based Catalyst System for the AGET ATRP of Styrene. Macromol. Rapid Commun. 2009, 30, 543-547.
+                    </li>
+                    <li>
+                        108. Lei Zhang, Wei Zhang, Nianchen Zhou, Jian Zhu, Zhengbiao Zhang, Zhenping Cheng and Xiulin Zhu*. Preparation and Characterization of Linear and Miktoarm Star Side-Chain Liquid Crystalline block Copolymers with p-Methoxyazobenzene Moieties via a Combination of ATRP and ROP. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2009, 46,876-885.
+                    </li>
+                    <li>
+                        109. Tao Song, Fute Zhang, Xiaojuan Shen, Xiaohong Zhang, Xiulin Zhu*,Baoquan Sun*. Amorphous silicon as electron transport layer for colloidal semiconductor nanocrystals light emitting diode. Appl. Phys. Lett. 2009, 95, 233502.
+                    </li>
+                    <li>
+                        110. Fang Ma, Nianchen Zhou, Jian Zhu, Wei Zhang, Lijuan Fan, Xiulin Zhu*. Light-driven fluorescence enhancement of phenylazo indazole-terminated polystyrene. Eur. Polym J. 2009, 45, 2131–2137.
+                    </li>
+                    <li>
+                        111. Suping Shi, Lifen Zhang, Jian Zhu, Wei Zhang, Zhenping Cheng*, Xiulin Zhu.Synthesis and property of polymer nanospheres with Pd/P4VP shells via surface RAFT polymerization.eXPRESS Polymer Letters 2009, 3, 401–412.
+                    </li>
+                    <li>
+                        112. Junwei Fu, Zhenping Cheng, Nianchen Zhou, Jian Zhu, Wei Zhang and Xiulin Zhu*.Facile synthesis of fluorescent ABA type amphiphilic triblock copolymers via RAFT polymerization and their aggregation behavior in a selective solvent.e-Polymers 2009, no. 018.
+                    </li>
+                    <li>
+                        113. Fan Tang, Lifen Zhang, Jian Zhu, Zhenping Cheng,* and Xiulin Zhu*. Surface Functionalization of Chitosan Nanospheres via Surface-Initiated AGET ATRP Mediated by Iron Catalyst in the Presence of Limited Amounts of Air. Ind. Eng. Chem. Res. 2009, 48, 6216–6223.
+                    </li>
+                    <li>
+                        114. Qifeng Chen, Zhengbiao Zhang, Nianchen Zhou, Jian Zhu, Qinmin Pan, Xiulin Zhu*. RAFT Polymerization of MMA in the Presence of Ferrocene: A New Way to Realize the Rate Enhancement. J. Polym. Sci., Part A: Polym. Chem. 2009, 47, 3607–3615.
+                    </li>
+                    <li>
+                        115. Weidong Zhang, Wei Zhang, Jian Zhu, Zhengbiao Zhang, Xiulin Zhu*. Controlled Synthesis of pH-Responsive Amphiphilic A2B2 Miktoarm Star Block Copolymer by Combination of SET-LRP and RAFT Polymerization. J. Polym. Sci., Part A: Polym. Chem. 2009, 47, 6908–6918.
+                    </li>
+                    <li>
+                        116. Weidong Zhang, Wei Zhang, Nianchen Zhou, Jian Zhu, Zhenping Cheng, Xiulin Zhu*. Synthesis of Miktoarm Star Amphiphilic Block Copolymers via Combination of NMRP and ATRP and Investigation on Self-Assembly Behaviors.J. Polym. Sci., Part A: Polym. Chem. 2009, 47, 6304–6315.
+                    </li>
+                    <li>
+                        117. Wenxiang Wang, Zhengbiao Zhang, Jian Zhu, Nianchen Zhou, Xiulin Zhu*. Single Electron Transfer-Living Radical Polymerization of Methyl Methacrylate in Fluoroalcohol: Dual Control Over Molecular Weight and Tacticity.J. Polym. Sci., Part A: Polym. Chem. 2009, 47, 6316–6327.
+                    </li>
+                    <li>
+                        118. Kang Zhao, Zhenping Cheng, Zhengbiao Zhang, Jian Zhu, Xiulin Zhu*. Synthesis of fluorescent poly(methyl methacrylate)via AGET ATRP. Polym. Bull. 2009, 63, 355–364.
+                    </li>
+                    <li>
+                        119. Weidong Zhang, Wei Zhang, Zhengbiao Zhang, Jian Zhu,Qinmin Pan,Xiulin Zhu*. Synthesis and characterization of AB2-type starpolymers via combination of ATRP and click chemistry. Polym. Bull. 2009, 63, 467–483.
+                    </li>
+                    <li>
+                        120. Jieai Li, Zhengbiao Zhang, Xiulin Zhu*, Jian Zhu, Zhenping Cheng, Wenjian Xu. Stable free radical polymerization of styrenewith 4-sulphonate-2,2,6,6-tetramethylpiperidine-N-oxylas mediators. Polym. Bull. 2010, 64, 1–13.
+                    </li>
+                    <li>
+                        121. Lifen Zhang,Zhenping Cheng, Zhengbiao, Zhang, Deyin Xu, Xiulin Zhu*. Fe(III)-catalyzed AGET ATRP of styreneusing triphenyl phosphine as ligand. Polym. Bull. 2010, 64, 233–244
+                    </li>
+                    <li>
+                        122. Nianchen Zhou, Zhengbiao Zhang, Wei Zhang, Jian Zhu, Xiulin Zhu*. RAFT polymerization of styrene mediated by naphthalene-containing RAFT agents and optical properties of the polymers. Polymer 2009, 50, 4352–4362.
+                    </li>
+                </ol>
+            </div>
+        </li>
+        <li id="2008">
+            <h1>
+                2008年已发表论文
+            </h1>
+            <div>
+                <ol class="report">
+                    <li>
+                        123. Jian Wang, Wenliang Xu, Zhenping Cheng, Xiulin Zhu*, Zhenbiao Zhang, Jian Zhu, Wei Zhang. Synthesis of Chiral Amphiphilic Diblock Copolymers via Consecutive RAFT Polymerization and Their Aggregation Behavior in Aqueous Solution. J. Polym. Sci., Part A: Polym. Chem., 2008, 26, 7690-7701.
+                    </li>
+                    <li>
+                        124. Wei Zhang, Daogang Li, Nianchen Zhou, Zhenping Cheng, Jian Zhu, Chunmei Xia, Xiulin Zhu*. Controlled Synthesis and Fluorescent Properties of Poly(9-(4-vinylbenzyl)-9H-carbazole) via Nitroxide-mediated Living Free Radical Polymerization. Eur. Polym. J. 2008, 44, 3300-3305.
+                    </li>
+                    <li>
+                        125. Weidong Zhang, Wei Zhang, Nianchen Zhou, Zhenping Cheng, Jian Zhu, Xiulin Zhu*. Synthesis and self-assembly behaviors of three-armed amphiphilic block copolymers via RAFT polymerization. Polymer 2008, 49, 4569-4575.
+                    </li>
+                    <li>
+                        126. Zhenping Cheng, Lifen Zhang, Xiulin Zhu,* E. T. Kang, K. G. Neoh. Organic/Inorganic Hybrid Nanospheres Coated with Palladium/P4VP Shells from Surface-Initiated Atom Transfer Radical Polymerization. J. Polym. Sci., Part A: Polym. Chem. 2008, 46, 2119-2131.
+                    </li>
+                    <li>
+                        127. Junwei Fu, Zhengbiao Zhang, Zhenping Cheng, Jian Zhu, Wei Zhang and Xiulin Zhu*. Synthesis and Characterizations of Triphenylamine End-Functionalized Polymers via Reversible Addition–Fragmentation Chain Transfer Polymerization. Polym. Bull. 2008, 61, 287–297.
+                    </li>
+                    <li>
+                        128. Gang Li,  Xiulin Zhu,  Zhenping Cheng,  Wei Zhang, Bin Sun. Synthesis of Poly(methyl methacrylate) Labeled with Fluorescein Moieties via Atom Transfer Radical Polymerization. J. Macromol. Sci. Part A: Pure Appl. Chem. 2008, 45, 328–334.
+                    </li>
+                    <li>
+                        129. Di Zhou, Xiulin Zhu*, Jian Zhu, Zhenping Cheng. Synthesis and Characterization of Fluorescence End-Labeled Polystyrene via Reversible Addition-Fragmentation Chain Transfer (RAFT) Polymerization. J. Polym. Sci. Part A: Polym. Chem., 2008, 46,6198-6205.
+                    </li>
+                    <li>
+                        130. Lifen Zhang, Zhenping Cheng, Fan Tang, Qiang Li, Xiulin Zhu*. Iron(III)-Mediated ATRP of Methyl Methacrylate Using Activator Generated by Electron Transfer. Macromol. Chem. Phys. 2008, 209, 1705-1713.
+                    </li>
+                    <li>
+                        131. Jian Zhu, Xiulin Zhu*, Zhenping Cheng, Zhengbiao Zhang. Copolymerization of N-Vinylcarbazole and Vinyl Acetate via Reversible Addition-Fragmentation Chain Transfer (RAFT) Polymerization. Macromol. Symp. 2008, 261,46-53.
+                    </li>
+                    <li>
+                        132. Lifen Zhang, Zhenping Cheng, Suping Shi, Qinghua Li, Xiulin Zhu*. AGET ATRP of methyl methacrylate catalyzed by FeCl3/iminodiacetic acid in the presence of air. Polymer 2008, 49, 3054-3059.
+                    </li>
+                    <li>
+                        133. Yuanyuan Zhang, Wei Zhang, Xinrong Chen, Zhenping Cheng, Jianhong Wu, Jian Zhu, Xiulin Zhu*. Synthesis of Novel Three-Arm Star Azo Side-Chain Liquid Crystalline Polymer Via ATRP and Photoinduced Surface Relief Gratings. J. Polym. Sci. Part A: Polym. Chem. 2008, 46, 777-789.
+                    </li>
+                    <li>
+                        134. Di Zhou, Xiulin Zhu*, Jian Zhu, Zhenping Cheng. Synthesis and characterization of novel copolymer containing pyridylazo-2-naphthoxyl group via reversible addition-fragementation chain transfer (RAFT) polymerization. Polymer 2008, 49,3048-3053.
+                    </li>
+                    <li>
+                        135. Yuhua Jin, Jian Zhu, Zhenbiao Zhang, Zhenping Cheng, Wei Zhang, Xiulin Zhu*. Synthesis and characterization of 1,2,3-triazole containing polymers via reversible addition-tragmentation chain transfer (RAFT) polymerization. Eur. Polym. J. 2008, 44, 1743-1751.
+                    </li>
+                    <li>
+                        136. Fen Chen, Zhenping Cheng, Jian Zhu, Wei Zhang, Xiulin Zhu*. Synthesis of poly(vinyl acetate) with fluorescence via a combination of RAFT/MADIX and “click” chemistry. Eur. Polym. J. 2008, 44, 1789-1795.
+                    </li>
+                    <li>
+                        137. Weidong Zhang, Wei Zhang, Zhenping Cheng, Nianchen Zhou, Xiulin Zhu*. Atom Transfer Radical Polymerization of Mehtyl Methacrylate High Efficiently Initiated by Azo-containing Iniferter. J. Macromol. Sci. Part A: Pure Appl. Chem. 2008, 45, 850-856.
+                    </li>
+                    <li>
+                        138. Jie Xu, Wei Zhang, Nianchen Zhou, Jian Zhu, Zhenping Cheng, Xiulin Zhu*. Synthesis and characterization of triphenylamine and Bis(indolyl)methane center-functionalized polymer via reversible addition-fragementation chain transfer polymerization. e-Polymers, 2008, No. 024.
+                    </li>
+                    <li>
+                        139. Xiaoqiang Xue, Wei Zhang, Zhenping Cheng, Jian Zhu, Xiulin Zhu*. A Novel Azo-Containing Dithiocarbamate Used for Living Radical Polymerization of Methyl Acrylate and Styrene. J. Polym. Sci. Part A: Polym. Chem., 2008, 46, 5626-5637.
+                    </li>
+                    <li>
+                        140. Jie Xu, Wei Zhang, Nianchen Zhou, Jian Zhu, Zhenping Cheng, Yan Xu, Xiulin Zhu*. Synthesis of Azobenzene-Containing Polymers via RAFT Polymerization and Investigation on Intense Fluorescence from Aggregates of Azobenzene-Containing Amphiphilic Diblock Copolymers. J. Polym. Sci. Part A: Polym. Chem., 2008, 46, 5652-5662.
+                    </li>
+                    <li>
+                        141. Xiaoming Wan, Zhengbiao Zhang, Xiulin Zhu*, Jian Zhu. Zhenping Cheng, Preparation of azobenzene-terminated polymers via reversible addition-fragmentation chain transfer (RAFT) polymerization. e-Polymers 2008, no. 088.
+                    </li>
+                    <li>
+                        142. Wei Zhang, Chengchao Wang, Daoguang Li, Qing Song, Zhenping Cheng, Xiulin Zhu*. Atom Transfer Radical Polymerization of Styrene Using Multifunctional Iniferter Reagents as Initiators. Macromol. Symp. 2008, 261, 23-31.
+                    </li>
+                    <li>
+                        143. Haizhong Cao, Wei Zhang, Jian Zhu, Xinrong Chen, Zhenping Cheng, Jianhong Wu, Xiulin Zhu*. Azo Polymers with electronical push and pull structures prepared via RAFT polymerization and its photoinduced birefringence behavior. eXpress Polymer Letters 2008, 2, 589-601.
+                    </li>
+                    <li>
+                        144. Lifen Zhang, Zhenping Cheng, Nianchen Zhou, Rongmei Zhang, Xiulin Zhu*. Synthesis of Amphiphilic ABCBA-Type Pentablock Copolymer from Consecutive ATRPs and Self-Assembly in Aqueous Solution. Macromol. Symp. 2008, 261, 54-63.
+                    </li>
+                    <li>
+                        145. Liping Yu, Zhengbiao Zhang, Xinrong Chen, Wei Zhang, Jianhong Wu, Zhenping Cheng, Jian Zhu, and Xiulin Zhu*. Synthesis and Photo-induced Birefringence and Surface-relief-gratings of Tetrazole-containing Azo Polymers via RAFT Polymerization. J. Polym. Sci., Part A: Polym. Chem. 2008, 46, 682-691.
+                    </li>
+                    <li>
+                        146. Wei Zhang, Xiulin Zhu*, Jian Zhu, Zhenping Cheng. Atom transfer radical polymerization of styrene using photoiniferter reagent as initiator. Journal of Chemistry and Chemical Engineering. 2008, 2, 22-28.
+                    </li>
+                    <li>
+                        147. Jian Wang, Wenliang Xu, ZhenPing Cheng, Xiulin Zhu*, Zhengbiao Zhang, Jian Zhu, Wei Zhang. Synthesis of chiral amphiphilic diblock copolymers via consecutive RAFT polymerizations and their aggregation behavior in aqueous solution. J. Polym. Sci., Part A: Polym. Chem. 2008, 46, 7690-7701.
+                    </li>
+                    <li>148. Junwei Fu, Zhenping Cheng, Nianchen Zhou, Jian Zhu, Wei Zhang, Xiulin Zhu*. Reversible addition–fragmentation chain transfer polymerizations of styrene with two novel trithiocarbonates as RAFT agents. Polymer 2008, 49, 5431–5438.  </li>
+                </ol>
+            </div>
+        </li>
+        <li id="2007">
+            <h1>
+                2007年已发表论文
+            </h1>
+            <div>
+                <ol class="report">
+                    <li>
+                        149. Nianchen Zhou, Jian Zhu, Zhengbiao Zhang and Xiulin Zhu*. RAFT Polymerization of Styrene Using Dithioester with Anthracene Z group as Chain Transfer Agent. e-polymers 2007, no. 137.
+                    </li>
+                    <li>
+                        150. Jian Zhu, Xiulin Zhu, E. T. Kang*, K. G. Neoh. Design and Synthesis of Star Polymers with Hetero-arms by the Combination of Controlled Radical Polymerizations and Click Chemistry. Polymer 2007, 48, 6992-6999.
+                    </li>
+                    <li>
+                        151. Zhengbiao Zhang, Wei Zhang, Xiulin Zhu*, Zhenping Cheng, and Jian Zhu. “Living”/controlled Free Radical Polymerization of MMA in the Presence of Cobalt(II) 2-ethylhexanoate: A Facile Switch from RAFT to ATRP Mechanism. J. Polym. Sci., Part A: Polym. Chem. 2007, 45, 5722-5730.
+                    </li>
+                    <li>
+                        152. Sumei Wang, Zhenping Cheng, Jian Zhu, Zhengbiao Zhang and Xiulin Zhu*. Synthesis of Amphiphilic and Thermosensitive Graft Copolymers with Fluorescence P(St-co-(p-CMS))-g-PNIPAAM by Combination of NMP and RAFT Methods. J. Polym. Sci., Part A: Polym. Chem. 2007, 45, 5318-5328.
+                    </li>
+                    <li>
+                        153. Feng Ping, Jian Zhu, Zhenping Cheng, Zhengbiao Zhang and Xiulin Zhu*. Reversible Addition-Fragmentation Chain Transfer Polymerization of 7-(4-(Acryloyloxy)butoxy) Coumarin. Polymer 2007, 48, 5859-5866.
+                    </li>
+                    <li>
+                        154. Liping Yu, Jian Zhu, Zhenping Cheng, Zhengbiao Zhang, Wei Zhang and Xiulin Zhu*. Synthesis and Self-assembly Behavior of Azobenzene-Centered (Co) Polymer via Reversible Addition-Fragmentation Chain Transfer (RAFT) Polymerization. e-Polymers 2007, no. 092.
+                    </li>
+                    <li>
+                        155. Yuanyuan Zhang, Zhenping Cheng, Xinrong Chen, Wei Zhang, Jianhong Wu, Jian Zhu, and Xiulin Zhu*. Synthesis and Photoresponsive Behaviors of Well-defined Azobenzene-Containing Polymers via RAFT Polymerization. Macromolecules 2007, 40, 4809-4817.
+                    </li>
+                    <li>
+                        156. Jian Wang, Xiulin Zhu*, Zhenping Cheng, Zhengbiao Zhang and Jian Zhu, Preparation. Characterization and Chiral Recognition of Optically Active Polymers Containing Pendent Chiral Units via Reversible Addition-Fragmentation Chain Transfer Polymerization. J. Polym. Sci., Part A: Polym. Chem. 2007, 45, 3788-3797.
+                    </li>
+                    <li>
+                        157. Wei Zhang, Xiulin Zhu*, Zhenping Cheng and Jian Zhu. Atom Transfer Radical Polymerizations of Methyl Methacrylate and Styrene using Iniferter Reagent as Initiator.J. Appl. Poly. Sci. 2007, 106, 230-237.
+                    </li>
+                    <li>
+                        158. Gang Wang, Xiulin Zhu*, Jianhong Wu, Jian Zhu, Xinrong Chen, and Zhenping Cheng. Synthesis and photoinduced surface-relief-grating of well-defined azo-containing polymethacrylates via atom transfer radical polymerization.J. Appl. Polym. Sci. 2007, 106, 1234-1242.
+                    </li>
+                    <li>
+                        159. Zhengbiao Zhang, Jian Zhu, Zhenping Cheng and Xiulin Zhu*. Reversible Addition-Fragmentation Chain Transfer (RAFT) Polymerization of Styrene in the Presence of Oxygen.Polymer 2007, 48, 4393-4400.
+                    </li>
+                    <li>
+                        160. Xiaoming Wan, Xiulin Zhu*, Jian Zhu, Zhengbiao Zhang and Zhenping Cheng. Synthesis of Dithiocarbamate Bearing Azobenzene Group and Use for RAFT Polymerization of Vinyl Monomers. J. Polym. Sci., Part A: Polym. Chem. 2007, 45, 2886-2896.
+                    </li>
+                    <li>
+                        161. Bin Sun, Xiulin Zhu*, Jian Zhu, Zhenping Cheng and Zhengbiao Zhang. A Novel Synthetic Method for the Well-Defined Polymer Containing Benzotriazole and Push-Pull Bisazobenzene Chromophore. Macromol. Chem. Phys. 2007, 208, 1101–1109.
+                    </li>
+                    <li>
+                        162. Nianchen Zhou, Lude Lu*, Jian Zhu, Xujie Yang, Xin Wang, Xiulin Zhu*, Zhengbiao Zhang. The Reversible-addition Fragmentation Chain Transfer Polymerization of Styrene Using Novel Thiophene Dithioester as the RAFT Agent. J. Appl. Polym. Sci. 2007, 105, 2357-2362.
+                    </li>
+                    <li>
+                        163. Zhengbiao Zhang, Xiulin Zhu*, Jian Zhu and Zhenping Cheng. Reversible Addition-Fragmentation Chain Transfer (RAFT) Polymerization of Vinyl Monomers Initiated by Poly(methyl methacrylate) Peroxide.e-Polymers 2007, no. 040.
+                    </li>
+                    <li>
+                        164. Nianchen Zhou, Lude Lu*, Jian Zhu, Xujie Yang, Xin Wang Xiulin Zhu*, Zhengbiao Zhang. “Synthesis of Novel Polystyrene End-capped with Pyrene via Reversible Addition–Fragmentation Chain Transfer Polymerization. Polymer 2007, 48, 1255-1260.
+                    </li>
+                    <li>
+                        165. Haisu Yin, Zhenping Cheng, Jian Zhu and Xiulin Zhu*. RAFT polymerization of styrene in the presence of 2-nonyl-benzoimidazole-1-carbodithioic acid benzyl ester.J. Macromol. Sci. Part A: Pure Appl. Chem. 2007, 44, 315-320.
+                    </li>
+                    <li>
+                        166. Jieai Li, Xiulin Zhu*, Jian Zhu and Zhenping Cheng. Imidazoline Nitroxide-Mediated Radical Polymerization of Styrene.J. Macromol. Sci. Part A: Pure Appl. Chem. 2007, 44, 41-46.
+                    </li>
+                    <li>
+                        167. Jieai Li, Xiulin Zhu*, Jian Zhu, Zhenping Cheng. Microwave-assisted Nitroxide-Mediated Miniemulsion Polymerization of Styrene. Radiat. Phys. Chem. 2007, 76, 23–26.
+                    </li>
+                    <li>
+                        168. Ying Zhou, Xiulin Zhu*, Zhenping Cheng and Jian Zhu. “Living”/Controlled Polymerization of Methyl Acrylate Mediated by Dithiocarbamates under γ-Ray Irradiation.J. Appl. Polym. Sci. 2007, 103, 1769-1775.
+                    </li>
+                    <li>169. Di Zhou, Xiulin Zhu*, Jian Zhu and Lihua Hu.Influence of the Chemical Structure of Dithiocarbamates with Different R Groups on the Reversible Addition–Fragmentation Chain Transfer Polymerization.J. Appl. Polym. Sci. 2007, 103, 982-988.</li>
+                </ol>
+            </div>
+        </li>
+        <li id="2006">
+            <h1>
+                2006年已发表论文
+            </h1>
+            <div>
+                <ol class="report">
+                    <li>
+                        170. Zhenping Cheng, Xiulin Zhu, Z. L. Shi, K. G. Neohand E. T. Kang. Polymer Microspheres with Permanent Antibacterial Surface from Surface-initiated Atom Transfer Radical Polymerization of 4-Vinylpyridine and Quaternization.Sur. Rev. Lett. 2006, 13, 313-318.
+                    </li>
+                    <li>
+                        171. Zhenping Cheng, Xiulin Zhu, E. T. Kang*, andK. G. Neoh.Modification of Poly(ether imide) Membranes via Surface-Initiated Atom Transfer Radical Polymerization. Macromolecules2006,39, 1660-1663.
+                    </li>
+                    <li>
+                        172. Jian Zhu, Xiulin Zhu*, Zhengbiao Zhang and Zhenping Cheng. Reversible Additional Fragmentation Chain Transfer Polymerization of Styrene under Microwave Irradiation.J. Polym. Sci., Part A: Polym. Chem. 2006, 44, 6810-6816.
+                    </li>
+                    <li>
+                        173. Zhengbiao Zhang, Xiulin Zhu*, Jian Zhu and Zhenping Cheng. Thermal Polymerization of Methyl (Meth)acrylate via Reversible Addition-Fragmentation chain Transfer (RAFT) Process. Polymer. 2006, 47, 6970-6977.
+                    </li>
+                    <li>
+                        174. Di Zhou, Xiulin Zhu,* Jian Zhu, Lihua Hu and Zhenping Cheng. Synthesis of Well-defined Carbazole Group Labeled Polymer via RAFT Polymerization and Study on the Optical Properties.e-Polymers 2006, no. 059.
+                    </li>
+                    <li>
+                        175. Kang Zhao, Xiulin Zhu*, Zhenping Cheng, Gang Wang and Jian Zhu. Atom Transfer Radical Polymerization of Styrene and Methyl Methacrylate using 2-(1-Bromoethyl)-Anthraquinone as Initiator. J Appl Polym Sci. 2006,102, 2081-2085.
+                    </li>
+                    <li>
+                        176. Xu Li, Xiulin Zhu*, Zhenping Cheng, Zhu Jian, Gaojian Chen. Atom Transfer Radical Polymerization of Methyl Methacrylate with α,α,α′,α′‐Tetrachloroxylene as an Initiator. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2006, 43, 1445-1458.
+                    </li>
+                    <li>
+                        177. Nianchen Zhou , Lude Lu, Xiulin Zhu, Xujie Yang, Xin Wang, Jian Zhu and Di Zhou. Preparation and Characterization of anthracene end-capped polystyrene via reversible addition-fragmentation chain transfer polymerization. Polym. Bull. 2006, 57, 491–498.
+                    </li>
+                    <li>
+                        178. Zhengbiao Zhang, Xiulin Zhu, Jian Zhu, Zhenping Cheng, and Shiping Zhu. Thermal Initiated Reversible Addition-Fragmentation Chain Transfer (RAFT) Polymerization of Methyl Methacrylate in the Presence of Oxygenm. J. Polym. Sci., Part A: Polym. Chem. 2006, 44, 3343–3354.
+                    </li>
+                    <li>
+                        179. Zhengbiao Zhang, Xiulin Zhu*, Jian Zhu, and Zhenping Cheng. Reversible Addition Fragmentation Chain Transfer (RAFT) Emulsion Polymerization of Methyl Methacrylate via a Plasma-initiated Process.Polym. Bull. 2006, 56, 539–548.
+                    </li>
+                    <li>
+                        180. Gang Wang, Xiulin Zhu*, Zhenping Cheng and Jian Zhu. New Ligands for Fe (III)-Mediated Reverse Atom Transfer Radical Polymerization of Methyl Methacrylate. J. Polym. Sci., Part A: Polym. Chem. 2006, 44, 2912–2921.
+                    </li>
+                    <li>
+                        181. Nianchen Zhou, Wenjian Xu, Yu Zhang, Jian Zhu and Xiulin Zhu*. Preparation and Characterization of Optically Active Polystyrene via a Chiral Nitroxide-Mediated Polymerization. J. Polym. Sci., Part A: Polym. Chem. 2006, 44, 1522–1528.
+                    </li>
+                    <li>
+                        182. Wenjian Xu, Xiulin Zhu*, Jian Zhu, and Zhenping Cheng. Preparation and Characterization of Optically Active Polymers Containing Pendent and Terminal Chiral Unit via Atom Transfer Radical Polymerization.J. Polym. Sci., Part A: Polym. Chem. 2006, 44, 1502–1513.
+                    </li>
+                    <li>
+                        183. Wenjian Xu, Xiulin Zhu*, Zhenping Cheng and Jian Zhu. Synthesis and Characterization of Polymers Containing Azobenzene Chromophoric Group by ATRP.  J. Macromol. Sci., Part A: Pure and Appl. Chem. 2006, A43, No. 2, 393–403.
+                    </li>
+                    <li>
+                        184. Ying Zhou, Jian Zhu, Xiulin Zhu* and Zhengping Cheng. Controlled/living radical polymerization of methyl methacrylate using gamma radiation as an initiation source. Radiat. Phys. Chem. 2006, 75, 485-492.
+                    </li>
+                    <li>
+                        185. Haisu Yin, Xiulin Zhu*, Di Zhou and Jian Zhu. RAFT polymerization of styrene using benzoimidazole dithiocarbamate as RAFT agent. J. Appl. Polym. Sci. 2006, 100, 560-564 .
+                    </li>
+                    <li>
+                        186. Nianchen Zhou , Lude Lu*, Xiulin Zhu*, Xujie Yang, Xin Wang, Jian Zhu and Zhenping Cheng. Synthesis of 1,3-benzodioxole end functionalized polymers via reversible addition-fragmentation chain transfer polymerization. J Appl Polym Sci. 2006, 99, 3535-3539 .
+                    </li>
+                    <li>
+                        187. Zhengbiao Zhang, Xiulin Zhu*, Zhenping Cheng, Jian Zhu and Jianmei Lu. New Dinitroxide for Stable Free Radical Polymerization of Styrene. J Appl. Polym. Sci.  2006, 100, 1137-1145 .
+                    </li>
+                    <li>
+                        188. Jieai Li, Xiulin Zhu*, Zhu Jian and Zhenping Cheng. Microwave Assisted Nitroxide-Mediated Living Free Radical Polymerization of Styrene. Radiat. Phys. Chem. 2006, 75, 253-258.
+                    </li>
+                    <li>
+                        189. Gang Wang, Xinlin Zhu*, Jian Zhu and Zhenping Cheng. Iron-mediated Atom Transfer Radical Polymerization of Styrene using Tris(3,6-dioxaheptyl) Amine as Ligand. J. Polym. Sci., Part A: Polym. Chem. 2006, 44, 483-489.
+                    </li>
+                    <li>
+                        190. Wei Zhang, Nianchen Zhou, Jian Zhu, Bin Sun and Xiulin Zhu*. Synthesis of Well-defined Naphthalene and Photo-liable Group Labeled Polystyrene via ATRP. J. Polym. Sci., Part A: Polym. Chem. 2006, 44, 510-518.
+                    </li>
+                    <li>191. Wei Zhang, Xiulin Zhu*, Jian Zhu and Jianying Chen. Atom Transfer Radical Polymerization of Styrene using a Novel Initiator Ethyl 2-N,N-(diethylamino)dithiocarbamoyl-Butyrate. J. Polym. Sci., Part A: Polym. Chem. 2006, 44, 32-41.</li>
+                </ol>
+            </div>
+        </li>
+        <li id="2005">
+            <h1>
+                2005年已发表论文
+            </h1>
+            <div>
+                <ol class="report">
+                    <li>
+                        192. Gang Li, Xiulin Zhu*, Jian Zhu, Zhenping Cheng and Wei Zhang. Homogeneous Reverse Atom Transfer Radical Polymerization of Glycidyl Methacrylate and Ring-Opening Reaction of the Pendant Oxirane Ring. Polymer 2005, 46, 12716–12721.
+                    </li>
+                    <li>
+                        193. Di Zhou, Xiulin Zhu*, Jian Zhu and Haishu Yin. Influence of the chemical structure of dithiocarbamates with different N-groups on the RAFT polymerization of styrene. J. Polym. Sci., Part A: Polym. Chem. 2005, 43, 4849-4856.
+                    </li>
+                    <li>
+                        194. Zhenping Cheng, Xiulin Zhu, E. T. Kang and K. G. Neoh. Brush-Type Amphiphilic Diblock Copolymers from “Living”/Controlled Radical Polymerizations and Their Aggregation Behavior. Langmuir 2005, 21, 7180-7185.
+                    </li>
+                    <li>
+                        195. Zhenping Cheng, Xiulin Zhu, G. D. Fu, E. T. Kang and K. G. Neoh.Dual-Brush-Type Amphiphilic Triblock Copolymer with Intact Epoxide Functional Groups from Consecutive RAFT Polymerizations and ATRP. Macromolecules 2005,38, 7187-7192.
+                    </li>
+                    <li>
+                        196. Zhenping Cheng, Xinlin Zhu, Z. L. Shi, K. G. Neoh, and E. T. Kang. Polymer Microspheres with Permanent Antibacterial Surface from Surface-Initiated Atom Transfer Radical Polymerization. Ind. Eng. Chem. Res.2005, 44, 7098-7104.
+                    </li>
+                    <li>
+                        197. Dijun Hu, Zhenping Cheng, Jian Zhu and Xiulin Zhu*. The ATRP of Amphiphilic Brush Copolymers of Poly (Styrene-g-2-(Dimethylamino)Ethyl Methacrylate) and Their Self-Assembly in Selective Solvents. Polymer 2005, 46, 7563–7571.
+                    </li>
+                    <li>
+                        198. Wei Zhang, Xiulin Zhu*, Di Zhou, Xiaoyan Wang and Jian Zhu. Reversible Addition–Fragmentation Chain Transfer Polymerization of 2-Naphthyl Acrylate with 2-Cyanoprop- 2-yl 1-Dithionaphthalate as a Chain-Transfer Agent. J. Polym. Sci., Part A: Polym. Chem. 2005, 43, 2632-2642.
+                    </li>
+                    <li>
+                        199. Gang Wang, Xiulin Zhu*, Cheng Zhengping and Jian Zhu. Atom Transfer Radical Polymerization of Styrene Initiated by A Novel Initiator 2-bromo-2-nitropropane.e-Polymers 2005, no. 035.
+                    </li>
+                    <li>
+                        200. Gang Wang, Xiulin Zhu*, Cheng Zhenping and Jian Zhu. Azobenzene-based Initiator for Atom Transfer Radical Polymerization of Methyl Methacrylate. J. Polym. Sci., Part A: Polym. Chem. 2005, 43, 2358-2367.
+                    </li>
+                    <li>
+                        201. Wang Xiaoyan, Zhu Jian, Zhou Di and Zhu* Xiulin. The Reversible Addition-Fragmentation chain Transfer Polymerization of Styrene Initiated by Tetraethylthiuram Disulfide. Polymer 2005, 46, 3515–3521.
+                    </li>
+                    <li>
+                        202. Wenjian Xu, Xiulin Zhu*, Zhenping Cheng,Gaojian Chen,Jian Zhu. Bulk Polymerization of Styrene using Tetramethylthiuram Disulfide as Initiator in the Presence of 2,2,6,6-tetramethyl-1- piperidinyloxy. J. Polym. Sci., Part A: Polym. Chem. 2005, 43, 534-551.
+                    </li>
+                    <li>
+                        203. Gaojian Chen, Xiulin Zhu*, Zhenping Cheng, Jianmei Lu. Synthesis and Characterization of Poly(vinyl chloride-co-vinyl acetate)-graft-Poly[(meth)acrylates] by Atom Transfer Radical Polymerization. J Appl. Polym. Sci. 2005, 96, 183–189.
+                    </li>
+                    <li>
+                        204. Zhenping Cheng, Xiulin Zhu*, Nianchen Zhou, Jian Zhu, Zhengbiao Zhang.Solution ATRP of Styrene under Pulsed Microwave Irradiation. Radiat. Phys. Chem. 2005, 72, 695–701.
+                    </li>
+                    <li>
+                        205. Dongmei Xu, Keda Zhang* and Xiulin Zhu. Fast growing dendritic poly(ester–amines) from alternatereaction of EDA and TMPTA. Tetrahedron Letters. 2005, 46, 2503–2505.
+                    </li>
+                    <li>206. Zhenping Cheng, Xiulin Zhu*, Jian Zhu, Jianmei Lu, Jianhui, Yu. Synthesis of a well-defined naphthalene-labeled polystyrene via atom transfer radical polymerization. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2005, 42, 341–349. </li>
+                </ol>
+            </div>
+        </li>
+        <li id="2004">
+            <h1>
+                2004年已发表论文
+            </h1>
+            <div>
+                <ol class="report">
+                    <li>
+                        207. Gaojian Chen, Xiulin Zhu*, Jian Zhu, Zhenping Cheng. Plasma-Initiated Controlled/Living Radical Polymerization of Methyl Methacrylate in the Presence of 2-Cyanoprop-2-yl 1-dithionaphthalate (CPDN). Macromol. Rapid Commun. 2004, 25, 818–824.
+                    </li>
+                    <li>
+                        208. Jian Zhu, Di Zhou, Xiulin Zhu*, Gaojian Chen. Reversible Addition–Fragmentation Chain Transfer Polymerization of Glycidyl Methacrylate with 2-Cyanoprop- 2-yl 1-Dithionaphthalate as a Chain-Transfer Agent. J. Polym. Sci., Part A: Polym. Chem. 2004, 42, 2558-2565 .
+                    </li>
+                    <li>
+                        209. Wei Zhang, Xiulin Zhu*, Jian Zhu, Zhenping Cheng. Reverse Atom Transfer Radical Polymerization of Methyl Methacrylate using a New Catalyst, Copper(II) N,N’-Butyldithiocarbamate. Macromol. Chem. Phys. 2004, 205, 806–813.
+                    </li>
+                    <li>
+                        210. Jian Zhu, Xiulin Zhu*, Di Zhou, Jianying Chen, Xiaoyan Wang. Study on reversible addition-fragmentation chain transfer (RAFT) polymerization of MMA in the presence of 2-cyanoprop-2-yl 1-dithiophenanthrenate (CPDPA). Eur. Polym. J. 2004, 40, 743-749.
+                    </li>
+                    <li>
+                        211. Gaojian Chen, Xiulin Zhu*,Zhenping Cheng, Jianmei Lu and Jianying Chen. Controlled/“living” Radical Polymerization of Methyl Methacrylate with p-TsCl /CuBr/BPY Initiating System under Microwave Irradiation. Polym Int. 2004, 53, 357–363.
+                    </li>
+                    <li>
+                        212. Xu Li, Xiulin Zhu*, Zhenping Cheng, Wenjian Xu, Gaojian Chen. Atom-Transfer Radical Polymerization of Methyl Methacrylate with α,α＇ -Dichloroxylene/CuCl/N,N,N,N,N-Pentamethyldiethylenetriamine Initiation System Under Microwave Irradiation. J. Appl. Polym. Sci. 2004, 93, 2189–2195.
+                    </li>
+                    <li>
+                        213. Hu, Dijun, Cheng, Zhenping, Wang, Gang, Zhu, Xiulin*. Synthesis of ABA triblock copolymer of poly(potassium acrylate-styrene-potassium acrylate) by atom transfer radical polymerization and the self-assembly in selective solvents. Polymer 2004, 45, 6525–6532.
+                    </li>
+                    <li>
+                        214. Xiulin Zhu*, Yurong Gu, Gaojian Chen, Zhenping Cheng, Jianmei Lu. Synthesis of Poly(octadecyl acrylate-b-styrene-b- octadecyl acrylate) Triblock Copolymer by Atom Transfer Radical Polymerization. J. Appl. Polym. Sci. 2004, 93, 1539–1545.
+                    </li>
+                    <li>
+                        215.  Gaojian Chen, Xiulin Zhu*, Zhenping Cheng, Wenjian Xu, Jianmei Lu.  Controlled/”living” Radical Polymerization of Methyl Methacrylate using AIBN as the initiator under Microwave Irradiation. Radiat. Phys. Chem. 2004, 69, 129–135.
+                    </li>
+                    <li>
+                        216. Wenjian Xu, Xiulin Zhu*, Zhenping Cheng, Jianying Chen and Jianmei Lu. Atom Transfer Radical Polymerization of Hexadecyl Acrylate using CuSCN as the Catalyst.Macromol. Res. 2004, 12, 32-37.
+                    </li>
+                    <li>
+                        217. Jian Zhu, Xiulin Zhu* and Di Zhou. Living”/Controlled Free Radical Polymerization Using bis(Thionaphthoyl) Disulfide as a Source of RAFT Agent. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2004, 41, 827–838.
+                    </li>
+                    <li>
+                        218. Gang Wang, Xiulin Zhu,* Zhenping Cheng, and Jian Zhu. Atom transfer radical polymerization of styrene using various onium salts as ligands. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2004, 41, 487–499.
+                    </li>
+                    <li>
+                        219. Wei Zhang, Xiulin Zhu*, Zhenping Cheng, Jian Zhu. Reverse atom transfer radical polymerization of styrene initiated by tetramethylthiuram disulfide/ CuSCN/N, N, N′, N″, N″-pentamethyldiethylenetriamine in the presence of acetonitrile. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2004, 41, 49–61.
+                    </li>
+                    <li>
+                        220. Jian Zhu, Di Zhou, Xiulin Zhu* and Zhenping Cheng. Reversible Addition-Fragmentation Chain-Transfer Polymerization of Iso-butyl Methacrylate. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2004, 41, 1059–1070.
+                    </li>
+                    <li>
+                        221. Wei Zhang, Xiulin Zhu*, Jian Zhu. Atom transfer radical polymerization of styrene initiated by the novel initiator N-bromosuccinimide. e-Polymers. 2004, no. 020.
+                    </li>
+                    <li>
+                        222. Gang Wang, Xiulin Zhu*, Dijun Hu, Cheng Zhenping and Jian Zhu. Polymerization of Styrene using 1,1,2,2-Tetraphenyl-1,2-ethanediol as initiator in the presence of 2,2,6,6-tetramethyl-1-piperidinyloxy. e-Polymers2004, no. 052.
+                    </li>
+                    <li>
+                        223. Zhang, Wei, Zhu, Xiu-Lin*, Cheng, ZhenPing, Zhu, Jian, Lang, Jian-Ping, Lu, Jianmei. “Synthesis and Crystal Structure of N, N'-Dimethyldithio-arbamato -Copper(I) Polymer {[Cu(Me2dtc)]2}n”. Chin. J. Chem. 2004, 22, 888-890.
+                    </li>
+                    <li>
+                        224. Jian Zhu, Xiulin Zhu* and Di Zhou. Living”/Controlled Free Radical Polymerization Using bis(Thionaphthoyl) Disulfide as a Source of RAFT Agent. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2004, 41, 827–838.
+                    </li>
+                    <li>
+                        225. Jian Zhu, Di Zhou, Xiulin Zhu* and Zhenping Cheng. Reversible Addition-Fragmentation Chain-Transfer Polymerization of Iso-butyl Methacrylate. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2004, 41, 1059–1070.
+                    </li>
+                    <li>
+                        226. Jian Zhu, Xiulin Zhu,* and Di Zhou. “Living”/Controlled Free Radical Polymerization Using bis(Thionaphthoyl) Disulfide as a Source of RAFT Agent. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2004, A41, No. 7, 827–838.
+                    </li>
+                    <li>
+                        227. Jian Zhu, Xiulin Zhu,* and Di Zhou. Living”/Controlled Free Radical Polymerization Using bis(Thionaphthoyl) Disulfide as a Source of RAFT Agent. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2004, 41, 1–12.
+                    </li>
+                    <li>228. Jian Zhu, Di Zhou, Xiulin Zhu,* and Zhenping Cheng. Reversible Addition Fragmentation Chain Transfer Polymerization of Isobutyl Methacrylate. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2004, 41, 1059–1070. </li>
+                </ol>
+            </div>
+        </li>
+        <li id="2003">
+            <h1>
+                2003年已发表论文
+            </h1>
+            <div>
+                <ol class="report">
+                    <li>
+                        229. Zhenping Cheng, Xiulin Zhu *. Atom Transfer Radical Polymerization of Methyl Methacrylate with Low Concentration of Initiating System under Microwave Irradiation. Polymer 2003, 44, 2243-2247.
+                    </li>
+                    <li>
+                        230. Xiulin Zhu*, Jianying Chen, Zhenping Cheng, Jianmei Lu, Jian Zhu. Emulsion Polymerization of Styrene Under Pulsed Microwave Irradiation. J. Appl. Polym .Sci. 2003, 89, 28–35.
+                    </li>
+                    <li>
+                        231. Xiulin Zhu*, Jianying Chen, Nianchen Zhou, Zhenping Cheng, Jianmei Lu. Emulsion polymerization of methyl methacrylate under pulsed microwave irradiation”. Eur. Polym. J. 2003, 39, 1187-1193.
+                    </li>
+                    <li>
+                        232. Xiulin Zhu*, Nianchen Zhou, Xiaomei He, Zhenping Cheng, Jianmei Lu. The Atom Transfer Radical Bulk Polymerization of Methyl Methacrylate under Microwave Irradiation. J. Appl. Polym. Sci. 2003, 88, 1787-1793.
+                    </li>
+                    <li>
+                        233. Zhenping Cheng, Xiulin Zhu*, Nianchen Zhou, Jianmei Lu. Living” Radical Autopolymerization of Styrene in the Presence of CuCl2 and 2, 2′-Bipyridine. J. Appl. Polym. Sci. 2003, 90, 1532–1538.
+                    </li>
+                    <li>
+                        234. Wenjian Xu, Xiulin Zhu*, Zhenping Cheng, Jianying Chen. Atom Transfer Radical Polymerization of Lauryl Methacrylate. J. Appl. Polym. Sci. 2003, 90, 1117-1125.
+                    </li>
+                    <li>
+                        235. Gang Wang, Xiulin Zhu*, Zhenping Cheng, Jian Zhu. Reverse atom transfer radical polymerization of methyl methacrylate with FeCl3/pyromellitic acid. Eur. Polym. J. 2003, 39, 2161–2165.
+                    </li>
+                    <li>
+                        236. Wenjian Xu, Zhu Xiulin*, Zhenping Cheng, ChenGaojian, Lu Jianmei. Atom transfer radical polymerization of n-octyl acrylate under microwave irradiation. Eur. Polym. J. 2003, 39, 1349-1353.
+                    </li>
+                    <li>
+                        237. Zhenping Cheng, Xiulin Zhu*, Lifen Zhang, Nianchen Zhou, Xinrong Xue. RATRP of MMA in AIBN/FeCl3/PPh3 Initiation System under Microwave Irradiation. Polym. Bull 2003, 49, 363-369.
+                    </li>
+                    <li>
+                        238. Zhenping Cheng, Xiulin Zhu*, Lifen Zhang, Nianchen Zhou and Jianying Chen. Homogeneous Solution Reverse Atom Transfer Radical Polymerization of Methyl Methacrylate. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2003, 40, 371–385.
+                    </li>
+                    <li>
+                        239. Gang Wang, Xiulin Zhu*, Zhenping Cheng, Nianchen Zhou and Jianme Lu i.ATRP of MMA in p-TsCl/CuSCN/PMEDTA Initiation System under Microwave Irradiation”. Polym. J. 2003, 35, 399-401.
+                    </li>
+                    <li>
+                        240. Jian Zhu, Xiulin Zhu*, Zhenping Cheng, Jianmei Lu, Feng Liu. Reversible Addition-Fragmentation Chain-Transfer Polymerization of Octadecyl acrylate. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2003, 40, 963–975.
+                    </li>
+                    <li>
+                        241. Zhenping Cheng, Xiulin Zhu*, Jianying Chen, Jianmei Lu. Homogeneous Atom Transfer Radical Polymerization of Methyl Methacrylate under Pulsed Microwave Irradiation. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2003, 40, 1157–1171.
+                    </li>
+                    <li>
+                        242. Jian Zhu, Xiulin Zhu*, Di Zhou, Jianying Chen. Living free radical polymerization of Styrene by the use of 2-cynoprop-2-yl dithionaphthalate (CPDN) as Reversible Addition Fragmentation Chain Transfer (RAFT) Agent.e-Polymers 2003, No. 043.
+                    </li>
+                    <li>243. Jian Zhu, Xiulin Zhu,* Zhenping Cheng, Jianmei Lu, and Feng Liu. Reversible Addition–Fragmentation Chain-Transfer Polymerization of Octadecyl Acrylate. J. Macromol. Sci., Part A: Pure and Appl. Chem. 2003, 40, 963–975.
+                </ol>
+
+            </div>
+        </li>
+        <li id="2002">
+            <h1>
+                2002年及以前已发表论文
+            </h1>
+            <div>
+                <ol class="report">
+
+                    <li>
+                        244. Zhenping Cheng, Xiulin Zhu*, Gaojian Chen, Wenjian Xu, Jianmei Lu. Reverse Atom Transfer Radical Solution Polymerization of Methyl Methacrylate under Pulsed Microwave Irradiation. J. Polym. Sci., Part A: Polym. Chem. 2002, 40, 3823–3834.
+                    </li>
+                    <li>
+                        245. Jian Zhu, Xiulin Zhu*, Zhenping Cheng, Feng Liu, Jianmei Lu. Study on controlled free-radical polymerization in the presence of 2-cyanoprop-2-yl 1-dithionaphthalate(CPDN). Polymer 2002, 43, 7037-7042.
+                    </li>
+                    <li>
+                        246. 李健，周年琛，朱秀林*，程振平，路建美. 丙烯酸十六酯与丙烯酸羟乙基共聚物凝胶的合成及其性能. 苏州大学学报（自然科学版）. 2006, 22, 83-88.
+                    </li>
+                    <li>
+                        247. 赵康，徐文健，朱秀林*，程振平，朱健. 氮氧自由基调控下苯乙烯的活性自由基聚合. 化学研究与应.2005, 17, 310-316.
+                    </li>
+                    <li>
+                        248. 王小燕，朱健，周弟，朱秀林*. 甲基丙烯酸二甲氨基乙酯的可逆加成断裂链转移自由基聚合及其嵌段共聚物的合成. 石油化工2005, 34, 536-540.
+                    </li>
+                    <li>
+                        249. 徐文健，周年琛，朱秀林*，程振平. 微波辐射下甲基丙烯酸正丁酯的原子转移自由基聚合. 化学研究与应用2005, 17, 223-225.
+                    </li>
+                    <li>
+                        250. 周弟，朱秀林*，程振平，朱健，路建美. 甲基丙烯酸异丁酯的低温原子转移自由基聚合”. 高分子材料科学与工程 2005, 21, 137-140.
+                    </li>
+                    <li>
+                        251. 周弟，朱秀林*，朱健，程振平. 以ß-CPDN为链转移剂的苯乙烯RAFT聚合. 高分子材料科学与工程. 2005, 21, 91-94.
+                    </li>
+                    <li>
+                        252. 梁俊，朱秀林*，程振平. 富马酸二甲酯与苯乙烯的原子转移自由基无规共聚. 化学研究与应用 2004, 16, 52-54.
+                    </li>
+                    <li>
+                        253. 梁俊，朱秀林*,朱健，程振平. 苯乙烯与富马酸二甲酯的RAFT无规共聚. 石油化工 2004, 33, 666-669.
+                    </li>
+                    <li>
+                        254. 李健，朱秀林*，程振平，周年琛，路建美. 丙烯酸十八酯与甲基丙烯酸共聚物凝胶的合成及其性能. 高校化学工程学报 2004, 18, 657-663.
+                    </li>
+                    <li>
+                        255. 周年琛，朱秀林*，高俊. 紫外光辐射交联制保水性树脂. 精细石油化工 2004, 5, 25-29
+                    </li>
+                    <li>
+                        256. 谷玉荣，朱秀林*，程振平，陈健英，路建美. 丙烯酸十八酯的原子转移自由基聚合. 石油化工 2003, 32, 295-298.
+                    </li>
+                    <li>
+                        257. 李健，周年琛，程振平，朱秀林*，路建美. 丙烯酸十六酯与丙烯酸共聚物凝胶的合成及其性能. 化学研究与应用2003, 15, 635-638.
+                    </li>
+                    <li>
+                        258. 张正彪，程振平，朱健，路建美，朱秀林*. 等离子体引发聚合法制备的聚甲基丙烯酸长链烷基酯. 油田化学 2003, 20, 273-276,272.
+                    </li>
+                    <li>
+                        259. 刘恩玲，周年琛*，朱秀林，路建美. 水解P (VAc2MA) 水凝胶的制备及其吸水性能. 苏大学报 2003, 19, 83-87.
+                    </li>
+                    <li>
+                        260. 高俊，周年琛，朱秀林*，潘保森，路建美. 紫外光照射交联固化保水剂的制备及吸水性能. 石油化工 2002, 31, 622-625.
+                    </li>
+                    <li>
+                        261. 朱健，朱秀林*，路建美，郭卫华，袁永坤. pH敏感性和温敏性聚丙烯酸钠与聚N-异丙基丙烯酰胺互穿网络材料的合成及其溶胀行为的研究. 高校化学工程学报 2002, 16, 302-305.
+                    </li>
+                    <li>
+                        262. 倪沛红，李洁爱，余樟清，路建美，朱秀林*. 乙烯基硅橡胶为助乳化剂的MMA/BA细乳液共聚合-水溶性引发体系. 高校化学工程学报2002, 16, 503-508.
+                    </li>
+                    <li>
+                        263. 何晓梅，陆剑波，路建美，朱秀林*. 铜酞菁的微波辐照法合成. 合成化学 2002, 10, 87-90.
+                    </li>
+                    <li>
+                        264. 朱健，朱秀林*，程振平，路建美，张正彪. N-取代丙烯酰胺的等离子体引发聚合及聚合物性能研究. 应用化学 2002, 19, 53-57.
+                    </li>
+                    <li>
+                        265. 周年琛，王法，朱秀林*，路建美，程振平.等离子体引发甲基丙烯酸甲酯和甲基丙烯酸2 - (二甲胺) 乙酯的共聚. 苏州大学学报 2002, 18, 75-79.
+                    </li>
+                    <li>
+                        266. 程振平，路建美，朱健，张丽芬，朱秀林*. 二元共聚高吸醇性树脂的合成及性能研究. 高校化学工程学报 2000, 14, 497-500.
+                    </li>
+                    <li>
+                        267. 朱　健，路建美，朱秀林*，王　法，姜崎松. 等离子体引发丙烯酰胺的反相悬浮聚合. 合成化学 2000, 8, 57-62.
+                    </li>
+                    <li>
+                        268. 路建美，朱健，纪顺俊，高俊，朱秀林*. 二元共聚吸醇树脂的合成及其性能研究. 胶体与聚合物 2000, 18, 18-20.
+                    </li>
+                    <li>
+                        269. 程振平，路建美，朱　健，张丽芬，曹　政，朱秀林*. 等离子体引发高吸醇性树脂的合成及性能. 石油化工 2000, 8, 571-574.
+                    </li>
+                    <li>
+                        270. 程振平，路建美，朱秀林*，朱健，张丽芬，赵祥永. 高吸液性树脂的合成及性能. 石油化工 2000, 9, 667-670.
+                    </li>
+                    <li>
+                        271. 路建美，朱秀林*，朱健，姜崎松，王法. 有水-丙酮体系射频等离子体产生的自由基浓度的测定. 苏州大学学报 1999, 15, 73-77.
+                    </li>
+                    <li>
+                        272. 路建美，程振平，朱秀林*，朱健，周炜萍. 等离子体引发丙烯酸聚合. 胶体与聚合物 1999, 17, 13-16.
+                    </li>
+                    <li>
+                        273. 路建美，朱秀林*，朱健，余俊. 马来酸酐的微波固相聚合研. 高分子材料科学与工程 1999, 15, 158-160.
+                    </li>
+                    <li>
+                        274. 朱秀林*，路建美，朱健，刘晓燕. 三聚甲醛的等离子体引发固相开环聚合.化学研究与应用 1999, 11, 56-58.
+                    </li>
+                    <li>
+                        275. 路建美，朱秀林*，朱健，余俊. 丙烯酸钠与丙烯酰胺微波辐射共聚. 高分子材料科学与工程 1998, 14, 38-40.
+                    </li>
+                    <li>
+                        276. 路建美，朱秀林*，余俊，朱健.微波法合成阳离子高吸水性树脂. 高分子材料科学与工程 1998, 14, 28-30.
+                    </li>
+                    <li>
+                        277. 路建美，朱秀林*，王丽华，余俊，朱健. 微波法合成两性高吸水性树脂. 石油化工 1997, 26, 152-156.
+                    </li>
+                    <li>
+                        278. 路建美，朱秀林*，鲁新宇，余俊，朱健. 丙烯酸酯与甲基丙烯酸酯的共聚及其性能的研究. 高分子材料科学与工程 1995, 4, 48-51.
+                    </li>
+                </ol>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</div>
+    <script type='text/javascript' src='qtimeline.js'></script> 
+
+</body>
+
+
+</html>
+
